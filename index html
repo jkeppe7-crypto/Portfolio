@@ -46,6 +46,7 @@
             margin: 0;
             font-size: 1.8rem;
             letter-spacing: 1px;
+            text-transform: uppercase;
         }
 
         .header p {
@@ -133,11 +134,6 @@
             color: var(--primary);
         }
 
-        .btn:hover {
-            transform: translateY(-2px);
-            filter: brightness(1.1);
-        }
-
         .footer {
             padding: 20px;
             font-size: 0.8rem;
@@ -179,10 +175,10 @@
 
             <div class="action-links">
                 <a href="mailto:jkeppe7@gmail.com" class="btn btn-primary">
-                    <i class="fas fa-envelope"></i> Contact Me
-                </div>
+                    <i class="fas fa-envelope"></i> Email Me
+                </a>
                 <a href="tel:3047129855" class="btn btn-outline">
-                    <i class="fas fa-phone"></i> Call 304-712-9855
+                    <i class="fas fa-phone"></i> 304-712-9855
                 </a>
             </div>
         </div>
@@ -194,3 +190,4 @@
 
 </body>
 </html>
+
